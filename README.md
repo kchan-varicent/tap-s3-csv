@@ -1,4 +1,6 @@
 # tap-s3-csv
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fkchan-varicent%2Ftap-s3-csv.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fkchan-varicent%2Ftap-s3-csv?ref=badge_shield)
+
 
 This is a [Singer](https://singer.io) tap that reads data from files located inside a given S3 bucket and produces JSON-formatted data following the [Singer spec](https://github.com/singer-io/getting-started/blob/master/SPEC.md).
 
@@ -75,3 +77,7 @@ A sample configuration is available inside [config.sample.json](config.sample.js
 ---
 
 Copyright &copy; 2018 Stitch
+
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fkchan-varicent%2Ftap-s3-csv.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fkchan-varicent%2Ftap-s3-csv?ref=badge_large)
