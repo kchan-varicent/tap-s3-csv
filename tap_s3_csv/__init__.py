@@ -19,7 +19,7 @@ def do_discover(config):
     if not streams:
         raise Exception("No streams found")
     catalog = {"streams": streams}
-    json.dump(catalog, sys.stdout, indent=2)
+    json.dump(catalog, sys.stdout, indent=2, ensure_ascii=False)
     LOGGER.info("Finished discover")
 
 
